@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permit Monkey</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #b3daff; /* Soft shade of blue */
+    }
+
+    header {
+      background-color: #4da6ff; /* Header background color */
+      padding: 20px;
+      width: 90%; /*   *****   */
+      text-align: center;
+      border-radius: 20px 20px 0 0; /* Rounded corners, only top corners */
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #company-name {
+      font-size: 24px;
+      font-weight: bold;
+      flex-grow: 1;
+    }
+
+    #contact-info {
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .dropdown {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .dropbtn {
+      font-size: 24px;
+      cursor: pointer;
+      background-color: #4da6ff; /* Button background color */
+      border: none;
+      border-radius: 10px; /* Rounded corners */
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #4da6ff; /* Menu background color */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      display: block;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      color: #333; /* Text color */
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    main {
+      text-align: center;
+      width: 80%;
+      margin: 20px auto;
+      background-color: #FFF; /* Main content background color */
+      padding: 20px;
+      border-radius: 20px; /* Rounded corners */
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      width: 90%; /*   *****   */
+
+      background-color: #80c1ff; /* Footer background color */
+      border-radius: 0 0 20px 20px; /* Rounded corners, only bottom corners */
+      margin-top: 20px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="dropdown">
+      <button class="dropbtn">≡ Menu</button>
+      <div class="dropdown-content">
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="contactform.html">Contact Form</a>
+      </div>
+    </div>
+    <div id="company-name"><br>Permit Monkey</div>
+    <div id="contact-info">
+      Address Line 1<br>
+      Address Line 2<br>
+      Address Line 3<br>
+      Tel: (123) 456-7890
+    </div>
+  </header>
+
+  <main>
+    
+  </main>
+
+  <footer>
+    <p>Copyright 2024</p>
+  </footer>
+
+</body>
+</html>
